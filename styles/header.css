@@ -1,0 +1,56 @@
+.header {
+  margin-top: 24px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-section {
+  flex: 1;
+  margin-left: 152px;
+  width: 201px;
+}
+
+.middle-section {
+  flex: 2;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  width: 318px;
+  margin-right: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.yoga-name {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.search-button {
+  border-width: 0;
+  background-color: transparent;
+}
+
+.home,
+.classes,
+.courses,
+.about {
+  border-width: 0;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-icon,
+.sign-in,
+.free-trial {
+  cursor: pointer;
+}

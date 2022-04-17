@@ -1,7 +1,10 @@
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 body {
-  background-color: #E7E7E7;
+  background-color: #e7e7e7;
   margin: 0;
+}
+.main-background {
+  width: 100%;
 }
